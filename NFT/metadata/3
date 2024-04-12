@@ -1,0 +1,18 @@
+{
+  "dna": "5cb36e07333f752f6c2b34d4adbad293",
+  "name": "Turf booking #3",
+  "description": "Dapp to book turf",
+  "image": "ipfs://QmTmbhADhiwb14EGugpyxrJu2kwFR1kUm4AGs3hHySSWS5/3.png",
+  "date": 1712915103195,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "bg#90"
+    },
+    {
+      "trait_type": "Players",
+      "value": "Kick#100"
+    }
+  ],
+  "compiler": "mintables.club"
+}

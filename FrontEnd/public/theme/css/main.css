@@ -1,0 +1,142 @@
+:root{
+    --color-1:#000804;
+    --color-2: #03FD8E;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+body::-webkit-scrollbar-track {
+    background-color: var(--color-1);
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    border: 1px solid transparent;
+    background-clip: content-box;
+    background-color: var(--color-2);
+}
+
+.collapse-site-menu {
+    background: url('/theme/img/bkg/hero-bg-mob-1.jpg');
+    background-size: cover;
+}
+
+.collapse-site-menu .menu-top {
+    width: 100%;
+    display: block;
+}
+
+.collapse-site-menu .menu-top ul {
+    display: block;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.collapse-site-menu .menu-top ul li {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.8rem;
+}
+
+.collapse-site-menu .menu-top ul li a {
+    font-family: var(--chakra-fonts-heading);
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.collapse-site-menu .menu-footer {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+}
+
+.collapse-site-menu .menu-footer h3 {
+    opacity: 50%;
+    font-weight: 300;
+}
+
+.collapse-site-menu .menu-footer .menu-links {
+    width: 100%;
+    display: inline-block;
+}
+
+.collapse-site-menu .menu-footer ul {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+    
+}
+
+.collapse-site-menu .menu-footer ul li {
+    display: inline-block;
+}
+
+main {
+    margin-top: 6.25rem;
+}
+
+.hm-sec-1 {
+    width: 100%;
+    background: url('/theme/img/bkg/hero-bg1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hm-sec-1 .chakra-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.hm-sec-1 .chakra-container>div {
+    margin-top: auto;
+}
+
+.prev-holder {
+    background-position: center !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+.hm-sec-1 .hm-sec-1-img-con img {
+    max-height: 50vh;
+}
+
+.hm-sec-4{
+    background: url('/theme/img/bkg/dex-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hm-sec-5{
+    background: url('/theme/img/bkg/market-bg.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+.hm-sec-6{
+    background: url('/theme/img/bkg/earn-bg.jpg');
+    background-size: cover;
+    background-position: bottom center;
+}
+
+@media (max-width: 1600px) {
+    .hm-sec-1 .chakra-container h2 {
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hm-sec-1 .chakra-container h2 {
+        font-size: 38px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hm-sec-1 .chakra-container h2 {
+        font-size: 34px;
+    }
+}

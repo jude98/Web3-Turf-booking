@@ -1,0 +1,18 @@
+{
+  "dna": "f6b47ca01a61c8d8aeac8157b755e50a",
+  "name": "Turf booking #2",
+  "description": "Dapp to book turf",
+  "image": "ipfs://QmTmbhADhiwb14EGugpyxrJu2kwFR1kUm4AGs3hHySSWS5/2.png",
+  "date": 1712915102699,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "bg#90"
+    },
+    {
+      "trait_type": "Players",
+      "value": "GoalKeeper#100"
+    }
+  ],
+  "compiler": "mintables.club"
+}
